@@ -10,7 +10,7 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - `raw-profiles.json.sig` — Ed25519 서명 / signature. 앱은 서명이 맞는 묶음만 씁니다 — 손으로 고치면 거부됩니다.
   The app only accepts a set whose signature verifies; hand edits are rejected.
 
-## 들어 있는 카메라 / Cameras (80) — 2판 · 2026-10-13
+## 들어 있는 카메라 / Cameras (132) — 3판 · 2026-10-14
 
 - Canon EOS R
 - Canon EOS R1
@@ -18,22 +18,71 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Canon EOS R100
 - Canon EOS R3
 - Canon EOS R5
+- Canon EOS R5 C
 - Canon EOS R5 Mark II
 - Canon EOS R50
+- Canon EOS R50 V
 - Canon EOS R6
 - Canon EOS R6 Mark II
 - Canon EOS R6 Mark III
 - Canon EOS R7
 - Canon EOS R8
 - Canon EOS RP
+- Canon EOS Ra
 - DJI Mini 3 Pro
 - DJI Mini 4 Pro
+- Fujifilm GFX 100
+- Fujifilm GFX 100 II
+- Fujifilm GFX 100S
+- Fujifilm GFX 100S II
+- Fujifilm GFX 50R
+- Fujifilm GFX 50S
+- Fujifilm GFX 50S II
+- Fujifilm X-A1
+- Fujifilm X-A10
+- Fujifilm X-A2
+- Fujifilm X-A3
+- Fujifilm X-A5
+- Fujifilm X-A7
 - Fujifilm X-E1
+- Fujifilm X-E2
+- Fujifilm X-E2S
+- Fujifilm X-E3
+- Fujifilm X-E4
+- Fujifilm X-E5
+- Fujifilm X-H1
 - Fujifilm X-H2
+- Fujifilm X-H2S
+- Fujifilm X-M1
+- Fujifilm X-M5
 - Fujifilm X-Pro1
+- Fujifilm X-Pro2
+- Fujifilm X-Pro3
+- Fujifilm X-S10
 - Fujifilm X-S20
+- Fujifilm X-T1
+- Fujifilm X-T10
+- Fujifilm X-T100
+- Fujifilm X-T2
+- Fujifilm X-T20
+- Fujifilm X-T200
+- Fujifilm X-T3
+- Fujifilm X-T30
+- Fujifilm X-T30 II
+- Fujifilm X-T30 III
+- Fujifilm X-T4
 - Fujifilm X-T5
+- Fujifilm X-T50
+- Fujifilm X100F
+- Fujifilm X100S
+- Fujifilm X100T
+- Fujifilm X100V
 - Fujifilm X100VI
+- Hasselblad 907X 50C
+- Hasselblad X1D II 50C
+- Hasselblad X1D-50c
+- Hasselblad X2D 100C · 907X 100C
+- Hasselblad X2D II 100C
 - Nikon Z30
 - Nikon Z5
 - Nikon Z5 II
@@ -48,6 +97,8 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Nikon Z9
 - Nikon Zf
 - Nikon Zfc
+- Sony FX3
+- Sony FX30
 - Sony NEX-3
 - Sony NEX-3N
 - Sony NEX-5
@@ -91,4 +142,5 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Sony α7S III
 - Sony α9
 - Sony α9 II
+- Sony α9 III
 - iPhone 15 Pro Max (ProRAW)
