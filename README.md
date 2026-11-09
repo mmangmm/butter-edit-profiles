@@ -10,7 +10,7 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - `raw-profiles.json.sig` — Ed25519 서명 / signature. 앱은 서명이 맞는 묶음만 씁니다 — 손으로 고치면 거부됩니다.
   The app only accepts a set whose signature verifies; hand edits are rejected.
 
-## 들어 있는 카메라 / Cameras (132) — 3판 · 2026-10-14
+## 들어 있는 카메라 / Cameras (133) — 4판 · 2026-11-10
 
 - Canon EOS R
 - Canon EOS R1
@@ -24,9 +24,10 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Canon EOS R50 V
 - Canon EOS R6
 - Canon EOS R6 Mark II
-- Canon EOS R6 Mark III
+- Canon EOS R6 Mark III / R6 V
 - Canon EOS R7
 - Canon EOS R8
+- Canon EOS R8 Mark II
 - Canon EOS RP
 - Canon EOS Ra
 - DJI Mini 3 Pro
@@ -144,3 +145,5 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Sony α9 II
 - Sony α9 III
 - iPhone 15 Pro Max (ProRAW)
+
+4판에서 더한 것 / Added in v4: Canon EOS R8 Mark II(Camera Raw 렌더 없이 RAW 안의 카메라 JPEG에 맞춤 / fitted to the camera JPEG embedded in the RAW, not to Camera Raw renders), Canon EOS R6 V(R6 Mark III와 같은 센서라 같은 프로필 / shares the R6 Mark III profile — same sensor).
