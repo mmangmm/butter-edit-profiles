@@ -10,7 +10,7 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - `raw-profiles.json.sig` — Ed25519 서명 / signature. 앱은 서명이 맞는 묶음만 씁니다 — 손으로 고치면 거부됩니다.
   The app only accepts a set whose signature verifies; hand edits are rejected.
 
-## 들어 있는 카메라 / Cameras (133) — 4판 · 2026-11-10
+## 들어 있는 카메라 / Cameras (142) — 5판 · 2026-11-23
 
 - Canon EOS R
 - Canon EOS R1
@@ -28,8 +28,16 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Canon EOS R7
 - Canon EOS R8
 - Canon EOS R8 Mark II
-- Canon EOS RP
 - Canon EOS Ra
+- Canon EOS RP
+- DJI Air 3
+- DJI Air 3S
+- DJI Mavic 2 Pro
+- DJI Mavic 3 (Hasselblad L2D-20c)
+- DJI Mavic 4 Pro (FC9284)
+- DJI Mavic 4 Pro (FC9287)
+- DJI Mavic 4 Pro (Hasselblad L3D-100c)
+- DJI Mini 2
 - DJI Mini 3 Pro
 - DJI Mini 4 Pro
 - Fujifilm GFX 100
@@ -145,5 +153,8 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Sony α9 II
 - Sony α9 III
 - iPhone 15 Pro Max (ProRAW)
+- iPhone 17 Pro Max (ProRAW)
 
 4판에서 더한 것 / Added in v4: Canon EOS R8 Mark II(Camera Raw 렌더 없이 RAW 안의 카메라 JPEG에 맞춤 / fitted to the camera JPEG embedded in the RAW, not to Camera Raw renders), Canon EOS R6 V(R6 Mark III와 같은 센서라 같은 프로필 / shares the R6 Mark III profile — same sensor).
+
+5판에서 더한 것 / Added in v5: iPhone 17 Pro Max(Adobe Color에 맞춤 / fitted to Adobe Color, like the 15 Pro Max), DJI Air 3 · Air 3S · Mavic 4 Pro(세 카메라 / all three cameras) · Mavic 3 · Mavic 2 Pro · Mini 2 — 라이트룸 클래식 16 렌더로 맞춤 / fitted to Lightroom Classic 16 renders.
