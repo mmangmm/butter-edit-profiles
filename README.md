@@ -10,7 +10,7 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - `raw-profiles.json.sig` — Ed25519 서명 / signature. 앱은 서명이 맞는 묶음만 씁니다 — 손으로 고치면 거부됩니다.
   The app only accepts a set whose signature verifies; hand edits are rejected.
 
-## 들어 있는 카메라 / Cameras (142) — 5판 · 2026-11-23
+## 들어 있는 카메라 / Cameras (178) — 6판 · 2026-11-24
 
 - Canon EOS R
 - Canon EOS R1
@@ -47,9 +47,11 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Fujifilm GFX 50R
 - Fujifilm GFX 50S
 - Fujifilm GFX 50S II
+- Fujifilm GFX100RF
 - Fujifilm X-A1
 - Fujifilm X-A10
 - Fujifilm X-A2
+- Fujifilm X-A20
 - Fujifilm X-A3
 - Fujifilm X-A5
 - Fujifilm X-A7
@@ -92,6 +94,15 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Hasselblad X1D-50c
 - Hasselblad X2D 100C · 907X 100C
 - Hasselblad X2D II 100C
+- Leica CL
+- Leica M10
+- Leica M10-R
+- Leica M11 / M11-P
+- Leica Q2
+- Leica Q3
+- Leica Q3 43
+- Leica SL2
+- Leica SL3
 - Nikon Z30
 - Nikon Z5
 - Nikon Z5 II
@@ -106,6 +117,27 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Nikon Z9
 - Nikon Zf
 - Nikon Zfc
+- OM System OM-1 / OM-1 II
+- OM System OM-3
+- OM System OM-5
+- OM System OM-5 II
+- Panasonic Lumix G100
+- Panasonic Lumix G9
+- Panasonic Lumix G9 II
+- Panasonic Lumix GH5 II
+- Panasonic Lumix GH6
+- Panasonic Lumix LX100 II
+- Panasonic Lumix S1
+- Panasonic Lumix S1 II
+- Panasonic Lumix S1H
+- Panasonic Lumix S1R
+- Panasonic Lumix S1R II
+- Panasonic Lumix S5
+- Panasonic Lumix S5 II / S5 IIX
+- Panasonic Lumix S9
+- Ricoh GR III
+- Sigma fp
+- Sigma fp L
 - Sony FX3
 - Sony FX30
 - Sony NEX-3
@@ -118,6 +150,10 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Sony NEX-7
 - Sony NEX-C3
 - Sony NEX-F3
+- Sony RX0 II
+- Sony RX10 IV
+- Sony ZV-1
+- Sony ZV-1 II
 - Sony ZV-E1
 - Sony ZV-E10
 - Sony ZV-E10 II
@@ -136,7 +172,7 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 - Sony α7
 - Sony α7 II
 - Sony α7 III
-- Sony α7 IV
+- Sony α7 IV / FX2
 - Sony α7 V
 - Sony α7C
 - Sony α7C II
@@ -158,3 +194,5 @@ camera's RAW files match Lightroom (Camera Raw, Adobe Standard) in color and bri
 4판에서 더한 것 / Added in v4: Canon EOS R8 Mark II(Camera Raw 렌더 없이 RAW 안의 카메라 JPEG에 맞춤 / fitted to the camera JPEG embedded in the RAW, not to Camera Raw renders), Canon EOS R6 V(R6 Mark III와 같은 센서라 같은 프로필 / shares the R6 Mark III profile — same sensor).
 
 5판에서 더한 것 / Added in v5: iPhone 17 Pro Max(Adobe Color에 맞춤 / fitted to Adobe Color, like the 15 Pro Max), DJI Air 3 · Air 3S · Mavic 4 Pro(세 카메라 / all three cameras) · Mavic 3 · Mavic 2 Pro · Mini 2 — 라이트룸 클래식 16 렌더로 맞춤 / fitted to Lightroom Classic 16 renders.
+
+6판에서 더한 것 / Added in v6: 파나소닉 Lumix 14기종 · 라이카 9기종 · OM System 4기종 · 소니 RX0 II · RX10 IV · ZV-1 · ZV-1 II · 후지 GFX100RF · X-A20 · 리코 GR III · 시그마 fp · fp L — 라이트룸 클래식 16 렌더(Adobe Color)로 맞춤 / fitted to Lightroom Classic 16 renders. S5 IIX · M11-P · OM-1 II · FX2는 같은 센서 기종의 프로필을 함께 씀 / share the profile of the same-sensor model.
